@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         call_service_button.setOnClickListener {
+            call_service_button.isSelected = call_service_button.isSelected.not()
             val greetingRequest = dataStore
                 .request()
                 .subscribeOn(Schedulers.io())
