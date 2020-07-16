@@ -24,6 +24,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="10dp"
         android:text="Call Service"
+        android:textColor="@drawable/button_selector"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_default="wrap"
         app:layout_constraintStart_toStartOf="parent"
